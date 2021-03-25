@@ -1,0 +1,10 @@
+version: '2'
+services:
+  app:
+    container_name: func-test
+    image: func-test/app
+    build: docker/nodejs
+    volumes:
+      - ./:/src
+    env_file:
+      - ./.env

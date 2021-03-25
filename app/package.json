@@ -1,0 +1,20 @@
+{
+  "name": "func-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "test.js",
+  "dependencies": {
+    "noogger": "0.1.3",
+    "sjcl": "1.0.3",
+    "cli-color": "1.1.0",
+    "cli-table2": "0.2.0",
+    "stellar-sdk": "git+https://github.com/openbankit/smart-sdk-js.git",
+    "smart-api-js": "git+https://github.com/openbankit/smart-api-js.git"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "node test.js",
+    "start": "eval `ssh-agent` && chmod 600 npm_key_rsa && ssh-add npm_key_rsa && npm install"
+  },
+  "author": "AtticLab"
+}
