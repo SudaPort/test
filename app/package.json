@@ -8,8 +8,8 @@
     "sjcl": "1.0.3",
     "cli-color": "1.1.0",
     "cli-table2": "0.2.0",
-    "stellar-sdk": "git+https://github.com/openbankit/smart-sdk-js.git",
-    "smart-api-js": "git+https://github.com/openbankit/smart-api-js.git"
+    "stellar-sdk": "git+https://github.com/SudaPort/smart-sdk-js.git",
+    "smart-api-js": "git+https://github.com/SudaPort/smart-api-js.git"
   },
   "devDependencies": {},
   "scripts": {
