@@ -1,6 +1,6 @@
-**/.idea
-**/node_modules
-**/bower_components
-**/logs
-.env
-.loadenv
+# **/.idea
+# **/node_modules
+# **/bower_components
+# **/logs
+# .env
+# .loadenv
