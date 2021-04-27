@@ -21,7 +21,7 @@ state:
 	docker-compose ps
 
 functest:
-	docker rm -f func-test || true
+	# docker rm -f func-test || true
 	@if [ ! -f ./.env ]; then\
   	read -p "Enter master seed:" master_seed; echo "MASTER_SEED=$$master_seed" >> ./.env; \
   	read -p "Enter master public key:" master_key; echo "MASTER_KEY=$$master_key" >> ./.env; \
@@ -34,7 +34,7 @@ functest:
 	docker-compose up
 
 loadtest:
-	docker rm -f func-test || true
+	# docker rm -f func-test || true
 	@if [ ! -f ./.env ]; then\
   	read -p "Enter master seed:" master_seed; echo "MASTER_SEED=$$master_seed" >> ./.env; \
   	read -p "Enter master public key:" master_key; echo "MASTER_KEY=$$master_key" >> ./.env; \
