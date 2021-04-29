@@ -16,5 +16,5 @@
     "test": "node test.js",
     "start": "eval `ssh-agent` && chmod 600 npm_key_rsa && ssh-add npm_key_rsa && npm install"
   },
-  "author": "AtticLab"
+  "author": "SudaPort"
 }
