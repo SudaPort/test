@@ -12,4 +12,4 @@ services:
       default:
         external:
           name: guroshnet
-            ipv4_address: 172.18.0.26
+            ipv4_address: 172.72.0.26
