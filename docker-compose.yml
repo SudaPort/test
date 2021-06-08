@@ -10,5 +10,5 @@ services:
       - ./.env
     networks:
       default:
-        external:
+        external: true
           name: guroshnet
