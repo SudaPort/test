@@ -9,5 +9,11 @@ services:
     env_file:
       - ./.env
     networks:
-      guroshnet:
-        external: true
+      guroshnet0:
+        ipv4_address: 188.0.0.26
+
+
+networks:
+  guroshnet0:
+    external: true
+    name: guroshnet
