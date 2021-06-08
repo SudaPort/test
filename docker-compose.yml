@@ -8,3 +8,8 @@ services:
       - ./:/src
     env_file:
       - ./.env
+    networks:
+      default:
+        external:
+          name: guroshnet
+            ipv4_address: 172.18.0.26
